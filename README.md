@@ -1,9 +1,7 @@
 # league-stuff
 
-messing around with league of legends API
+python interface to league of legends API
 
-put your API key in environment variable 'RIOT_API_KEY'
+put your league API key in environment variable 'RIOT_API_KEY'
 
-requires python packages
-
-1. requests
+install with setup.py
