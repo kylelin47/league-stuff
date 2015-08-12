@@ -1,5 +1,3 @@
-import json
-import os
 import requests
 
 class ApiAccessor:
@@ -23,15 +21,3 @@ class ApiAccessor:
 
     def get_json(self, url):
         return requests.get(url, params=self._payload).json()
-
-class MatchHistoryRetriever(ApiAccessor):
-
-    def get_match_history(self, player_name):
-        return self.get_json(
-            'https://na.api.pvp.net/api/lol/na/v2.2/matchhistory/{}'.format(
-            self.get_id(player_name)))
-
-if __name__ == '__main__':
-    api_key = os.environ['RIOT_API_KEY']
-    mhr = MatchHistoryRetriever(api_key)
-    print(json.dumps(mhr.get_match_history('efdf'), sort_keys=True, indent=4))
