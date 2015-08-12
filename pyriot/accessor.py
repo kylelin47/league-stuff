@@ -30,4 +30,7 @@ class ApiAccessor:
         return self.get_json(request_url)[player_name]['id']
 
     def get_json(self, url):
-        return requests.get(url, params=self._payload).json()
+        try:
+            return requests.get(url, params=self._payload).json()
+        except ValueError:
+            return None
