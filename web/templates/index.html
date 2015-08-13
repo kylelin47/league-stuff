@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello friends</title>
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+<body>
+    <form onSubmit="return checkAnswer();">
+        <input id="answer" type="text" maxlength="55" class="box" autofocus />
+        <input type="submit" class="submit" value="SUBMIT" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,2188 @@
+{
+    "matches": [
+        {
+            "mapId": 11,
+            "matchCreation": 1430875401359,
+            "matchDuration": 2186,
+            "matchId": 1814960585,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 268,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4121,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4123,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4133,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4311,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4312,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4322,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4324,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4331,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4334,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4341,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4342,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4343,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4352,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4353,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4362,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5273
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5357
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 18,
+                        "champLevel": 15,
+                        "combatPlayerScore": 0,
+                        "deaths": 5,
+                        "doubleKills": 1,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": true,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 11868,
+                        "goldSpent": 11615,
+                        "inhibitorKills": 0,
+                        "item0": 3285,
+                        "item1": 2049,
+                        "item2": 3157,
+                        "item3": 3165,
+                        "item4": 3020,
+                        "item5": 0,
+                        "item6": 3364,
+                        "killingSprees": 1,
+                        "kills": 8,
+                        "largestCriticalStrike": 0,
+                        "largestKillingSpree": 7,
+                        "largestMultiKill": 2,
+                        "magicDamageDealt": 36871,
+                        "magicDamageDealtToChampions": 16975,
+                        "magicDamageTaken": 9395,
+                        "minionsKilled": 33,
+                        "neutralMinionsKilled": 1,
+                        "neutralMinionsKilledEnemyJungle": 1,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 8979,
+                        "physicalDamageDealtToChampions": 1840,
+                        "physicalDamageTaken": 9450,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 46928,
+                        "totalDamageDealtToChampions": 19890,
+                        "totalDamageTaken": 18946,
+                        "totalHeal": 935,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 103,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 0,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 1077,
+                        "trueDamageDealtToChampions": 1075,
+                        "trueDamageTaken": 100,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 2,
+                        "wardsPlaced": 27,
+                        "winner": true
+                    },
+                    "teamId": 100,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 0.5,
+                            "thirtyToEnd": 2.6,
+                            "twentyToThirty": 1.3,
+                            "zeroToTen": 0.2
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": -0.55,
+                            "thirtyToEnd": -0.9000000000000004,
+                            "twentyToThirty": -0.6000000000000001,
+                            "zeroToTen": -0.3500000000000003
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": -11.950000000000045,
+                            "thirtyToEnd": 200.0,
+                            "twentyToThirty": -98.45000000000002,
+                            "zeroToTen": -49.55000000000002
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 608.7,
+                            "thirtyToEnd": 724.8,
+                            "twentyToThirty": 454.7,
+                            "zeroToTen": 278.3
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 287.0,
+                            "thirtyToEnd": 527.8,
+                            "twentyToThirty": 378.79999999999995,
+                            "zeroToTen": 141.9
+                        },
+                        "lane": "BOTTOM",
+                        "role": "DUO_SUPPORT",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": -90.95000000000002,
+                            "thirtyToEnd": 345.4,
+                            "twentyToThirty": 27.24999999999997,
+                            "zeroToTen": 32.150000000000006
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 276.29999999999995,
+                            "thirtyToEnd": 608.2,
+                            "twentyToThirty": 395.8,
+                            "zeroToTen": 302.1
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1430922473423,
+            "matchDuration": 1828,
+            "matchId": 1815273932,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 24,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4112,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4121,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4131,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4141,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5337
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 5,
+                        "champLevel": 17,
+                        "combatPlayerScore": 0,
+                        "deaths": 4,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": true,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 12242,
+                        "goldSpent": 11438,
+                        "inhibitorKills": 0,
+                        "item0": 3078,
+                        "item1": 3153,
+                        "item2": 3110,
+                        "item3": 0,
+                        "item4": 0,
+                        "item5": 3111,
+                        "item6": 3361,
+                        "killingSprees": 2,
+                        "kills": 4,
+                        "largestCriticalStrike": 760,
+                        "largestKillingSpree": 2,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 37314,
+                        "magicDamageDealtToChampions": 4793,
+                        "magicDamageTaken": 4969,
+                        "minionsKilled": 218,
+                        "neutralMinionsKilled": 19,
+                        "neutralMinionsKilledEnemyJungle": 9,
+                        "neutralMinionsKilledTeamJungle": 10,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 143507,
+                        "physicalDamageDealtToChampions": 13449,
+                        "physicalDamageTaken": 13493,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 2,
+                        "totalDamageDealt": 181763,
+                        "totalDamageDealtToChampions": 19185,
+                        "totalDamageTaken": 18824,
+                        "totalHeal": 2138,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 161,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 2,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 942,
+                        "trueDamageDealtToChampions": 942,
+                        "trueDamageTaken": 362,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 1,
+                        "wardsPlaced": 11,
+                        "winner": true
+                    },
+                    "teamId": 200,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 7.7,
+                            "twentyToThirty": 7.800000000000001,
+                            "zeroToTen": 5.5
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": -2.9000000000000004,
+                            "twentyToThirty": -1.0999999999999996,
+                            "zeroToTen": 0.30000000000000027
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 134.39999999999998,
+                            "twentyToThirty": -140.4,
+                            "zeroToTen": -284.2
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 666.4,
+                            "twentyToThirty": 758.2,
+                            "zeroToTen": 454.5
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 365.9,
+                            "twentyToThirty": 516.9,
+                            "zeroToTen": 271.2
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": -93.1,
+                            "twentyToThirty": 334.3,
+                            "zeroToTen": -18.900000000000006
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 495.79999999999995,
+                            "twentyToThirty": 817.6,
+                            "zeroToTen": 363.0
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1431042562964,
+            "matchDuration": 1998,
+            "matchId": 1816821393,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 41,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4112,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4121,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4142,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5335
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 6,
+                        "champLevel": 14,
+                        "combatPlayerScore": 0,
+                        "deaths": 1,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 8288,
+                        "goldSpent": 7865,
+                        "inhibitorKills": 0,
+                        "item0": 3022,
+                        "item1": 3401,
+                        "item2": 2049,
+                        "item3": 3047,
+                        "item4": 0,
+                        "item5": 0,
+                        "item6": 3364,
+                        "killingSprees": 0,
+                        "kills": 1,
+                        "largestCriticalStrike": 0,
+                        "largestKillingSpree": 0,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 6165,
+                        "magicDamageDealtToChampions": 3488,
+                        "magicDamageTaken": 6681,
+                        "minionsKilled": 94,
+                        "neutralMinionsKilled": 0,
+                        "neutralMinionsKilledEnemyJungle": 0,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 31004,
+                        "physicalDamageDealtToChampions": 5579,
+                        "physicalDamageTaken": 11359,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 47515,
+                        "totalDamageDealtToChampions": 9805,
+                        "totalDamageTaken": 18403,
+                        "totalHeal": 5889,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 823,
+                        "totalUnitsHealed": 4,
+                        "towerKills": 0,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 10344,
+                        "trueDamageDealtToChampions": 738,
+                        "trueDamageTaken": 362,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 2,
+                        "wardsPlaced": 12,
+                        "winner": false
+                    },
+                    "teamId": 200,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 2.7,
+                            "twentyToThirty": 5.2,
+                            "zeroToTen": 1.1
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 0.35000000000000053,
+                            "twentyToThirty": 1.6499999999999995,
+                            "zeroToTen": 0.050000000000000044
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 260.84999999999997,
+                            "twentyToThirty": 248.2,
+                            "zeroToTen": -51.349999999999994
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 671.0,
+                            "twentyToThirty": 683.4000000000001,
+                            "zeroToTen": 225.1
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 218.8,
+                            "twentyToThirty": 371.7,
+                            "zeroToTen": 139.8
+                        },
+                        "lane": "BOTTOM",
+                        "role": "DUO_SUPPORT",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": -44.349999999999966,
+                            "twentyToThirty": 19.150000000000006,
+                            "zeroToTen": 21.94999999999999
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 342.5,
+                            "twentyToThirty": 495.5,
+                            "zeroToTen": 287.2
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1431045155678,
+            "matchDuration": 1779,
+            "matchId": 1816843307,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 19,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4113,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4231,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4233,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4234,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4244,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4252,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4262,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5347
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5402
+                        }
+                    ],
+                    "spell1Id": 12,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 6,
+                        "champLevel": 15,
+                        "combatPlayerScore": 0,
+                        "deaths": 3,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 8977,
+                        "goldSpent": 8295,
+                        "inhibitorKills": 0,
+                        "item0": 1029,
+                        "item1": 3143,
+                        "item2": 2041,
+                        "item3": 1031,
+                        "item4": 3047,
+                        "item5": 3110,
+                        "item6": 3361,
+                        "killingSprees": 1,
+                        "kills": 2,
+                        "largestCriticalStrike": 0,
+                        "largestKillingSpree": 2,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 19827,
+                        "magicDamageDealtToChampions": 7809,
+                        "magicDamageTaken": 11214,
+                        "minionsKilled": 184,
+                        "neutralMinionsKilled": 0,
+                        "neutralMinionsKilledEnemyJungle": 0,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 42163,
+                        "physicalDamageDealtToChampions": 2951,
+                        "physicalDamageTaken": 15257,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 61990,
+                        "totalDamageDealtToChampions": 10760,
+                        "totalDamageTaken": 28121,
+                        "totalHeal": 11054,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 2970,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 0,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 0,
+                        "trueDamageDealtToChampions": 0,
+                        "trueDamageTaken": 1650,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 1,
+                        "winner": false
+                    },
+                    "teamId": 100,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 8.8,
+                            "zeroToTen": 6.4
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 3.1,
+                            "zeroToTen": -0.6999999999999993
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": -349.90000000000003,
+                            "zeroToTen": 265.3
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 525.8,
+                            "zeroToTen": 565.8
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 384.9,
+                            "zeroToTen": 222.60000000000002
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 179.8,
+                            "zeroToTen": -8.799999999999983
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 625.5,
+                            "zeroToTen": 455.20000000000005
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1431047506089,
+            "matchDuration": 1829,
+            "matchId": 1816882454,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 23,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4112,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4142,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4151,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5337
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 5,
+                        "champLevel": 17,
+                        "combatPlayerScore": 0,
+                        "deaths": 3,
+                        "doubleKills": 2,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": true,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 14571,
+                        "goldSpent": 13185,
+                        "inhibitorKills": 2,
+                        "item0": 3006,
+                        "item1": 3153,
+                        "item2": 3031,
+                        "item3": 3087,
+                        "item4": 3035,
+                        "item5": 0,
+                        "item6": 3340,
+                        "killingSprees": 2,
+                        "kills": 11,
+                        "largestCriticalStrike": 954,
+                        "largestKillingSpree": 5,
+                        "largestMultiKill": 2,
+                        "magicDamageDealt": 13697,
+                        "magicDamageDealtToChampions": 1545,
+                        "magicDamageTaken": 17211,
+                        "minionsKilled": 218,
+                        "neutralMinionsKilled": 20,
+                        "neutralMinionsKilledEnemyJungle": 12,
+                        "neutralMinionsKilledTeamJungle": 8,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 183190,
+                        "physicalDamageDealtToChampions": 17748,
+                        "physicalDamageTaken": 16955,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 197901,
+                        "totalDamageDealtToChampions": 20270,
+                        "totalDamageTaken": 35173,
+                        "totalHeal": 13182,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 143,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 3,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 1014,
+                        "trueDamageDealtToChampions": 976,
+                        "trueDamageTaken": 1007,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 3,
+                        "winner": true
+                    },
+                    "teamId": 100,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 6.7,
+                            "twentyToThirty": 7.8,
+                            "zeroToTen": 7.1
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 1.2000000000000002,
+                            "twentyToThirty": 3.1999999999999997,
+                            "zeroToTen": 0.0
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 685.1999999999999,
+                            "twentyToThirty": 487.39999999999986,
+                            "zeroToTen": 263.29999999999995
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 1245.1999999999998,
+                            "twentyToThirty": 1707.1,
+                            "zeroToTen": 565.0
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 485.8,
+                            "twentyToThirty": 624.8,
+                            "zeroToTen": 249.6
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 250.8,
+                            "twentyToThirty": 39.299999999999955,
+                            "zeroToTen": 25.899999999999977
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 542.3,
+                            "twentyToThirty": 755.5999999999999,
+                            "zeroToTen": 451.29999999999995
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1431198495389,
+            "matchDuration": 1442,
+            "matchId": 1818695358,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.8.0.461",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 28,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 23,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4112,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4142,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4151,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5337
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 2,
+                        "champLevel": 14,
+                        "combatPlayerScore": 0,
+                        "deaths": 6,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 10382,
+                        "goldSpent": 9117,
+                        "inhibitorKills": 0,
+                        "item0": 3087,
+                        "item1": 3153,
+                        "item2": 2003,
+                        "item3": 3006,
+                        "item4": 3134,
+                        "item5": 3093,
+                        "item6": 3340,
+                        "killingSprees": 1,
+                        "kills": 6,
+                        "largestCriticalStrike": 512,
+                        "largestKillingSpree": 2,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 7286,
+                        "magicDamageDealtToChampions": 768,
+                        "magicDamageTaken": 4292,
+                        "minionsKilled": 192,
+                        "neutralMinionsKilled": 4,
+                        "neutralMinionsKilledEnemyJungle": 1,
+                        "neutralMinionsKilledTeamJungle": 3,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 128889,
+                        "physicalDamageDealtToChampions": 17555,
+                        "physicalDamageTaken": 20570,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 137661,
+                        "totalDamageDealtToChampions": 19704,
+                        "totalDamageTaken": 25272,
+                        "totalHeal": 7428,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 145,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 2,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 1485,
+                        "trueDamageDealtToChampions": 1380,
+                        "trueDamageTaken": 410,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 1,
+                        "winner": true
+                    },
+                    "teamId": 200,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 9.3,
+                            "zeroToTen": 6.3
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 3.7,
+                            "zeroToTen": 0.5000000000000002
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 497.3,
+                            "zeroToTen": 176.29999999999998
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 1169.0,
+                            "zeroToTen": 703.8
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 437.5,
+                            "zeroToTen": 293.0
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 142.99999999999997,
+                            "zeroToTen": -31.899999999999963
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 579.0,
+                            "zeroToTen": 427.2
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1432494097308,
+            "matchDuration": 1669,
+            "matchId": 1834160087,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.9.0.318",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 7,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 59,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4131,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4141,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5335
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 13,
+                        "champLevel": 16,
+                        "combatPlayerScore": 0,
+                        "deaths": 4,
+                        "doubleKills": 2,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": true,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 13819,
+                        "goldSpent": 11650,
+                        "inhibitorKills": 1,
+                        "item0": 3093,
+                        "item1": 3074,
+                        "item2": 2041,
+                        "item3": 3047,
+                        "item4": 3035,
+                        "item5": 3031,
+                        "item6": 3340,
+                        "killingSprees": 3,
+                        "kills": 10,
+                        "largestCriticalStrike": 915,
+                        "largestKillingSpree": 4,
+                        "largestMultiKill": 2,
+                        "magicDamageDealt": 2541,
+                        "magicDamageDealtToChampions": 950,
+                        "magicDamageTaken": 7253,
+                        "minionsKilled": 218,
+                        "neutralMinionsKilled": 10,
+                        "neutralMinionsKilledEnemyJungle": 10,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 148479,
+                        "physicalDamageDealtToChampions": 20452,
+                        "physicalDamageTaken": 8914,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 152217,
+                        "totalDamageDealtToChampions": 22528,
+                        "totalDamageTaken": 17145,
+                        "totalHeal": 1249,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 124,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 0,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 1196,
+                        "trueDamageDealtToChampions": 1126,
+                        "trueDamageTaken": 977,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 3,
+                        "winner": true
+                    },
+                    "teamId": 200,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 10.9,
+                            "zeroToTen": 6.3
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 5.9,
+                            "zeroToTen": 1.6
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 15.900000000000034,
+                            "zeroToTen": -164.5
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 770.1,
+                            "zeroToTen": 285.20000000000005
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 638.5,
+                            "zeroToTen": 275.70000000000005
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 276.30000000000007,
+                            "zeroToTen": 102.89999999999998
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 753.4000000000001,
+                            "zeroToTen": 431.4
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1432496263569,
+            "matchDuration": 1981,
+            "matchId": 1834183629,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.9.0.318",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 7,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 85,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4121,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4231,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4233,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4234,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4244,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4252,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4262,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5335
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 18,
+                        "champLevel": 16,
+                        "combatPlayerScore": 0,
+                        "deaths": 4,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 9838,
+                        "goldSpent": 9640,
+                        "inhibitorKills": 0,
+                        "item0": 3275,
+                        "item1": 2049,
+                        "item2": 3157,
+                        "item3": 3116,
+                        "item4": 0,
+                        "item5": 3303,
+                        "item6": 3364,
+                        "killingSprees": 1,
+                        "kills": 4,
+                        "largestCriticalStrike": 0,
+                        "largestKillingSpree": 2,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 23708,
+                        "magicDamageDealtToChampions": 13939,
+                        "magicDamageTaken": 6060,
+                        "minionsKilled": 36,
+                        "neutralMinionsKilled": 0,
+                        "neutralMinionsKilledEnemyJungle": 0,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 10966,
+                        "physicalDamageDealtToChampions": 3988,
+                        "physicalDamageTaken": 10532,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 35495,
+                        "totalDamageDealtToChampions": 18747,
+                        "totalDamageTaken": 18900,
+                        "totalHeal": 2582,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 123,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 0,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 820,
+                        "trueDamageDealtToChampions": 820,
+                        "trueDamageTaken": 2307,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 2,
+                        "wardsKilled": 4,
+                        "wardsPlaced": 25,
+                        "winner": false
+                    },
+                    "teamId": 200,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 1.5,
+                            "twentyToThirty": 0.4,
+                            "zeroToTen": 0.5
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 0.15000000000000036,
+                            "twentyToThirty": -2.8000000000000003,
+                            "zeroToTen": 0.1499999999999999
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": -20.25,
+                            "twentyToThirty": -3.3500000000000227,
+                            "zeroToTen": -109.10000000000001
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 368.7,
+                            "twentyToThirty": 881.0,
+                            "zeroToTen": 225.5
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 203.10000000000002,
+                            "twentyToThirty": 364.70000000000005,
+                            "zeroToTen": 176.8
+                        },
+                        "lane": "BOTTOM",
+                        "role": "DUO_SUPPORT",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 11.900000000000006,
+                            "twentyToThirty": -41.65000000000006,
+                            "zeroToTen": 34.09999999999998
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 299.7,
+                            "twentyToThirty": 526.3,
+                            "zeroToTen": 318.0
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1432498772676,
+            "matchDuration": 2517,
+            "matchId": 1834197185,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.9.0.318",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 7,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 24,
+                    "highestAchievedSeasonTier": "DIAMOND",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4131,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4141,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4212,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5337
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 11,
+                        "champLevel": 18,
+                        "combatPlayerScore": 0,
+                        "deaths": 7,
+                        "doubleKills": 0,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 15870,
+                        "goldSpent": 13888,
+                        "inhibitorKills": 0,
+                        "item0": 3047,
+                        "item1": 3153,
+                        "item2": 3211,
+                        "item3": 1055,
+                        "item4": 3026,
+                        "item5": 3078,
+                        "item6": 3361,
+                        "killingSprees": 2,
+                        "kills": 9,
+                        "largestCriticalStrike": 686,
+                        "largestKillingSpree": 4,
+                        "largestMultiKill": 1,
+                        "magicDamageDealt": 34996,
+                        "magicDamageDealtToChampions": 5186,
+                        "magicDamageTaken": 18955,
+                        "minionsKilled": 234,
+                        "neutralMinionsKilled": 10,
+                        "neutralMinionsKilledEnemyJungle": 10,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 146140,
+                        "physicalDamageDealtToChampions": 14237,
+                        "physicalDamageTaken": 16644,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 182184,
+                        "totalDamageDealtToChampions": 20472,
+                        "totalDamageTaken": 37136,
+                        "totalHeal": 4728,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 86,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 1,
+                        "tripleKills": 0,
+                        "trueDamageDealt": 1048,
+                        "trueDamageDealtToChampions": 1048,
+                        "trueDamageTaken": 1537,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 8,
+                        "winner": true
+                    },
+                    "teamId": 100,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 8.7,
+                            "thirtyToEnd": 4.0,
+                            "twentyToThirty": 5.8,
+                            "zeroToTen": 4.4
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 3.5,
+                            "thirtyToEnd": -0.8999999999999999,
+                            "twentyToThirty": 1.9999999999999993,
+                            "zeroToTen": -1.0999999999999999
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": -105.09999999999997,
+                            "thirtyToEnd": 167.29999999999995,
+                            "twentyToThirty": 352.29999999999995,
+                            "zeroToTen": 165.6
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 513.3,
+                            "thirtyToEnd": 1066.4,
+                            "twentyToThirty": 1157.5,
+                            "zeroToTen": 536.7
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 396.4,
+                            "thirtyToEnd": 336.9,
+                            "twentyToThirty": 431.40000000000003,
+                            "zeroToTen": 222.1
+                        },
+                        "lane": "TOP",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 209.00000000000003,
+                            "thirtyToEnd": -204.29999999999998,
+                            "twentyToThirty": 79.00000000000003,
+                            "zeroToTen": 51.10000000000002
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 588.1,
+                            "thirtyToEnd": 393.9,
+                            "twentyToThirty": 517.9,
+                            "zeroToTen": 408.70000000000005
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_SOLO_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        },
+        {
+            "mapId": 11,
+            "matchCreation": 1436724986314,
+            "matchDuration": 1220,
+            "matchId": 1884492985,
+            "matchMode": "CLASSIC",
+            "matchType": "MATCHED_GAME",
+            "matchVersion": "5.13.0.329",
+            "participantIdentities": [
+                {
+                    "participantId": 0,
+                    "player": {
+                        "matchHistoryUri": "/v1/stats/player_history/NA/32293436",
+                        "profileIcon": 7,
+                        "summonerId": 19599551,
+                        "summonerName": "efdf"
+                    }
+                }
+            ],
+            "participants": [
+                {
+                    "championId": 91,
+                    "highestAchievedSeasonTier": "GOLD",
+                    "masteries": [
+                        {
+                            "masteryId": 4111,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4113,
+                            "rank": 4
+                        },
+                        {
+                            "masteryId": 4114,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4122,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4124,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4131,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4132,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4134,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4141,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4144,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4152,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4162,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4211,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4213,
+                            "rank": 2
+                        },
+                        {
+                            "masteryId": 4221,
+                            "rank": 1
+                        },
+                        {
+                            "masteryId": 4222,
+                            "rank": 3
+                        },
+                        {
+                            "masteryId": 4232,
+                            "rank": 1
+                        }
+                    ],
+                    "participantId": 0,
+                    "runes": [
+                        {
+                            "rank": 9,
+                            "runeId": 5245
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5289
+                        },
+                        {
+                            "rank": 9,
+                            "runeId": 5317
+                        },
+                        {
+                            "rank": 3,
+                            "runeId": 5335
+                        }
+                    ],
+                    "spell1Id": 14,
+                    "spell2Id": 4,
+                    "stats": {
+                        "assists": 2,
+                        "champLevel": 13,
+                        "combatPlayerScore": 0,
+                        "deaths": 4,
+                        "doubleKills": 1,
+                        "firstBloodAssist": false,
+                        "firstBloodKill": false,
+                        "firstInhibitorAssist": false,
+                        "firstInhibitorKill": false,
+                        "firstTowerAssist": false,
+                        "firstTowerKill": false,
+                        "goldEarned": 7568,
+                        "goldSpent": 7225,
+                        "inhibitorKills": 0,
+                        "item0": 2041,
+                        "item1": 3077,
+                        "item2": 3142,
+                        "item3": 3117,
+                        "item4": 1036,
+                        "item5": 1037,
+                        "item6": 3340,
+                        "killingSprees": 2,
+                        "kills": 6,
+                        "largestCriticalStrike": 406,
+                        "largestKillingSpree": 4,
+                        "largestMultiKill": 3,
+                        "magicDamageDealt": 0,
+                        "magicDamageDealtToChampions": 0,
+                        "magicDamageTaken": 4502,
+                        "minionsKilled": 128,
+                        "neutralMinionsKilled": 1,
+                        "neutralMinionsKilledEnemyJungle": 1,
+                        "neutralMinionsKilledTeamJungle": 0,
+                        "objectivePlayerScore": 0,
+                        "pentaKills": 0,
+                        "physicalDamageDealt": 77898,
+                        "physicalDamageDealtToChampions": 12201,
+                        "physicalDamageTaken": 5889,
+                        "quadraKills": 0,
+                        "sightWardsBoughtInGame": 0,
+                        "totalDamageDealt": 78440,
+                        "totalDamageDealtToChampions": 12743,
+                        "totalDamageTaken": 12651,
+                        "totalHeal": 566,
+                        "totalPlayerScore": 0,
+                        "totalScoreRank": 0,
+                        "totalTimeCrowdControlDealt": 584,
+                        "totalUnitsHealed": 1,
+                        "towerKills": 0,
+                        "tripleKills": 1,
+                        "trueDamageDealt": 542,
+                        "trueDamageDealtToChampions": 542,
+                        "trueDamageTaken": 2260,
+                        "unrealKills": 0,
+                        "visionWardsBoughtInGame": 0,
+                        "wardsKilled": 0,
+                        "wardsPlaced": 2,
+                        "winner": true
+                    },
+                    "teamId": 100,
+                    "timeline": {
+                        "creepsPerMinDeltas": {
+                            "tenToTwenty": 6.6,
+                            "zeroToTen": 5.699999999999999
+                        },
+                        "csDiffPerMinDeltas": {
+                            "tenToTwenty": 0.2999999999999998,
+                            "zeroToTen": -0.40000000000000036
+                        },
+                        "damageTakenDiffPerMinDeltas": {
+                            "tenToTwenty": 227.49999999999994,
+                            "zeroToTen": 37.70000000000002
+                        },
+                        "damageTakenPerMinDeltas": {
+                            "tenToTwenty": 808.0999999999999,
+                            "zeroToTen": 423.3
+                        },
+                        "goldPerMinDeltas": {
+                            "tenToTwenty": 462.79999999999995,
+                            "zeroToTen": 232.89999999999998
+                        },
+                        "lane": "MIDDLE",
+                        "role": "SOLO",
+                        "xpDiffPerMinDeltas": {
+                            "tenToTwenty": 40.99999999999997,
+                            "zeroToTen": 12.400000000000006
+                        },
+                        "xpPerMinDeltas": {
+                            "tenToTwenty": 506.5,
+                            "zeroToTen": 472.1
+                        }
+                    }
+                }
+            ],
+            "platformId": "NA1",
+            "queueType": "RANKED_TEAM_5x5",
+            "region": "NA",
+            "season": "SEASON2015"
+        }
+    ]
+}

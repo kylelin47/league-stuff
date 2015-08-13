@@ -5,3 +5,15 @@ class MatchHistoryAccessor(ApiAccessor):
         return self.get_json(
             self._address + '/v2.2/matchhistory/{}'.format(
                 self.get_id(player_name)))
+
+def get_first_blood_contributions(match_history):
+    contributions = 0
+    for match in match_history['matches']:
+        assert len(match['participants']) == 1
+        match_stats = match['participants'][0]['stats']
+        if match_stats['firstBloodKill'] or match_stats['firstBloodAssist']:
+            contributions += 1
+    return contributions
+
+def get_number_of_matches(match_history):
+    return len(match_history['matches'])
