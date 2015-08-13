@@ -1,4 +1,8 @@
+import logging
+
 from .accessor import ApiAccessor
+
+logger = logging.getLogger(__name__)
 
 
 class MatchHistoryAccessor(ApiAccessor):
@@ -7,6 +11,7 @@ class MatchHistoryAccessor(ApiAccessor):
             raise TypeError('At least one identifier is required')
         if player_id is None:
             player_id = self.get_id(player_name)
+        logger.info('Accessing player match history')
         return self.get_json(
             self._address + '/v2.2/matchhistory/{}'.format(player_id))
 

@@ -1,4 +1,8 @@
+import logging
+
 import requests
+
+logger = logging.getLogger(__name__)
 
 
 class ApiAccessor:
@@ -26,6 +30,7 @@ class ApiAccessor:
             self.region)
 
     def get_id(self, player_name):
+        logger.info('Getting id of player {}'.format(player_name))
         player_name = ''.join(player_name.split())
         request_url = self._address + '/v1.4/summoner/by-name/{}'.format(
             player_name)

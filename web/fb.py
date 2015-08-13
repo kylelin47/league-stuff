@@ -1,4 +1,5 @@
 import os
+from logging.config import fileConfig
 
 from flask import Flask
 from flask import render_template
@@ -8,6 +9,7 @@ from werkzeug.contrib.cache import SimpleCache
 import pyriot.match as match
 
 app = Flask(__name__)
+
 id_cache = SimpleCache(default_timeout=60 * 60 * 24 * 7)
 history_cache = SimpleCache()
 
@@ -20,7 +22,7 @@ def search_player():
                            name=request.args.get('name', 'N/A'))
 
 
-@app.route('/<region>/<name>')
+@app.route('/<region>/<name>/')
 def show_fb(region, name):
     history = get_match_history(region, name)
     expected_template = 'first_blood.html'
@@ -64,4 +66,5 @@ def get_template_name(history, default):
 
 
 if __name__ == '__main__':
+    fileConfig('logging.conf')
     app.run(debug=True)
