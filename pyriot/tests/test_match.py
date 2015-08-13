@@ -7,6 +7,7 @@ import pyriot.match as match
 
 api_key = os.environ['RIOT_API_KEY']
 
+
 class TestMatchHistory(unittest.TestCase):
     def setUp(self):
         self.mha = MatchHistoryAccessor(api_key, 'na')
@@ -45,6 +46,7 @@ class TestMatchHistory(unittest.TestCase):
             history = json.load(data_file)
         self.assertEqual(match.get_number_of_matches(history), 10,
                          msg='Incorrect number of matches')
+
 
 if __name__ == '__main__':
     unittest.main()
