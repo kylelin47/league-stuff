@@ -2,7 +2,9 @@ from .accessor import ApiAccessor
 
 
 class MatchHistoryAccessor(ApiAccessor):
-    def get_match_history(self, player_name, player_id=None):
+    def get_match_history(self, player_name=None, player_id=None):
+        if player_name is None and player_id is None:
+            raise TypeError('At least one identifier is required')
         if player_id is None:
             player_id = self.get_id(player_name)
         return self.get_json(

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>hello friends</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
     <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
 </head>
 <body>
@@ -15,5 +16,6 @@
         </select>
         <input type="submit" class="submit" value="SUBMIT" />
     </form>
+    <p class="emphatic">Name parameter: {{ name }}</p>
 </body>
 </html>

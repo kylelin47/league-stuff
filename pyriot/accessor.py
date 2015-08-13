@@ -26,6 +26,7 @@ class ApiAccessor:
             self.region)
 
     def get_id(self, player_name):
+        player_name = ''.join(player_name.split())
         request_url = self._address + '/v1.4/summoner/by-name/{}'.format(
             player_name)
         return self.get_json(request_url)[player_name.lower()]['id']

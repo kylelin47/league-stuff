@@ -2,6 +2,7 @@ import os
 
 from flask import Flask
 from flask import render_template
+from flask import request
 from werkzeug.contrib.cache import SimpleCache
 
 import pyriot.match as match
@@ -15,7 +16,8 @@ api_key = os.environ['RIOT_API_KEY']
 
 @app.route('/')
 def search_player():
-    return render_template('index.html', regions=['NA', 'EUW', 'EUNE'])
+    return render_template('index.html', regions=['NA', 'EUW', 'EUNE'],
+                           name=request.args.get('name', 'N/A'))
 
 
 @app.route('/<region>/<name>')
@@ -28,11 +30,12 @@ def show_fb(region, name):
     return render_template(expected_template,
                            contributions=match.get_first_blood_contributions(
                                history),
-                           matches=match.get_number_of_matches(history))
+                           matches=match.get_number_of_matches(history),
+                           name=name)
 
 
 def generate_cache_key(region, name):
-    return region.upper() + name.lower()
+    return region.upper() + ''.join(name.lower().split())
 
 
 def get_match_history(region, name):

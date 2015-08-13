@@ -5,7 +5,7 @@
     <title></title>
 </head>
 <body>
-    contributions: {{ contributions }} / {{ matches }}
-    <a href="/">back foul fiend</a>
+    {{ name }} contributions: {{ contributions }} / {{ matches }}
+    <a href="{{ url_for('search_player', name=name) }}">back foul fiend</a>
 </body>
 </html>

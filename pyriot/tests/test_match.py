@@ -19,7 +19,7 @@ class TestMatchHistory(unittest.TestCase):
     def test_first_blood_contributions(self):
         with open(self.abs_file_path) as data_file:
             history = json.load(data_file)
-        self.assertEqual(match.get_first_blood_contributions(history), 1,
+        self.assertEqual(match.get_first_blood_contributions(history), 3,
                          msg='Incorrect number of first blood contributions')
 
     def test_matches_filtered_by_region(self):
@@ -28,6 +28,12 @@ class TestMatchHistory(unittest.TestCase):
         euw_matches = self.mha.get_match_history(self.player_name)
         self.assertNotEqual(
             na_matches, euw_matches, msg='Different regions had same matches')
+
+    def test_player_found_with_spaces(self):
+        self.player_name = 'ex cathedra'
+        self.assertIsNotNone(
+            self.mha.get_match_history(self.player_name),
+            msg='Failed to retrieve matches from name with space')
 
     def test_player_found_with_special_names(self):
         self.mha.region = 'euw'
