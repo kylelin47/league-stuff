@@ -17,6 +17,13 @@ class TestMatchHistoryAccessor(unittest.TestCase):
         self.assertNotEqual(
             na_matches, euw_matches, msg='Different regions had same matches')
 
+    def test_player_found_with_special_names(self):
+        self.mha.region = 'euw'
+        self.player_name = 'íNféKt'
+        self.assertIsNotNone(
+            self.mha.get_match_history(self.player_name)['matches'],
+            msg=('Failed to retrieve matches from special name'))
+
     def test_player_matches_retrieved(self):
         self.assertIsNotNone(
             self.mha.get_match_history(self.player_name)['matches'],
