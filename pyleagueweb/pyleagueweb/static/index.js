@@ -1,4 +1,6 @@
 var pyleagueweb = (function (my) {
+    my.colorScheme = 'blue';
+
     my.redirect = function() {
         var info = getPageInformation();
         location = '/players/' + info.region + '/' + info.name;
