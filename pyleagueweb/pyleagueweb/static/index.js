@@ -16,7 +16,7 @@ var pyleagueweb = (function (my) {
             region: region
         };
         return info;
-    }
+    };
 
     return my;
 }(pyleagueweb || {}));
