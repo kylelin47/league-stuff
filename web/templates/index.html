@@ -8,13 +8,18 @@
 </head>
 <body>
     <form onSubmit="return redirect();">
-        <input id="name" type="text" maxlength="55" class="box" autofocus />
+        <input id="name" type="text" maxlength="55" class="box" placeholder="player name" autofocus />
         <select id="region">
             {% for region in regions %}
                 <option value="{{ region }}">{{ region }}</option>
             {% endfor %}
         </select>
         <input type="submit" class="submit" value="SUBMIT" />
+    </form>
+    <form action="/playground/" method="post">
+        <input name="region" value="na" placeholder="region">
+        <input name="player" value="efdf" placeholder="player">
+        <button>See cached id</button>
     </form>
     <p class="emphatic">Name parameter: {{ name }}</p>
 </body>

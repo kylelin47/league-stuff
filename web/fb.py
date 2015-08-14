@@ -1,28 +1,17 @@
 import os
-from logging.config import fileConfig
 
-from flask import Flask
+from flask import Blueprint
 from flask import render_template
-from flask import request
-from werkzeug.contrib.cache import SimpleCache
 
 import pyriot.match as match
+import cache
 
-app = Flask(__name__)
-
-id_cache = SimpleCache(default_timeout=60 * 60 * 24 * 7)
-history_cache = SimpleCache()
+fb_api = Blueprint('fb_api', __name__)
 
 api_key = os.environ['RIOT_API_KEY']
 
 
-@app.route('/')
-def search_player():
-    return render_template('index.html', regions=['NA', 'EUW', 'EUNE'],
-                           name=request.args.get('name', 'N/A'))
-
-
-@app.route('/<region>/<name>/')
+@fb_api.route('/<region>/<name>/')
 def show_fb(region, name):
     history = get_match_history(region, name)
     expected_template = 'first_blood.html'
@@ -36,24 +25,20 @@ def show_fb(region, name):
                            name=name)
 
 
-def generate_cache_key(region, name):
-    return region.upper() + ''.join(name.lower().split())
-
-
 def get_match_history(region, name):
-    cache_key = generate_cache_key(region, name)
-    history = history_cache.get(cache_key)
+    cache_key = cache.generate_cache_key(region, name)
+    history = cache.history_cache.get(cache_key)
     if history is None:
         mha = match.MatchHistoryAccessor(api_key, region)
-        player_id = id_cache.get(cache_key)
+        player_id = cache.id_cache.get(cache_key)
         try:
             if player_id is None:
                 player_id = mha.get_id(name)
             history = mha.get_match_history(name, player_id=player_id)
         except TypeError:
             return None
-        id_cache.set(cache_key, player_id)
-        history_cache.set(cache_key, history)
+        cache.id_cache.set(cache_key, player_id)
+        cache.history_cache.set(cache_key, history)
     return history
 
 
@@ -63,8 +48,3 @@ def get_template_name(history, default):
     if 'matches' not in history:
         return 'no_match_history.html'
     return default
-
-
-if __name__ == '__main__':
-    fileConfig('logging.conf')
-    app.run(debug=True)
