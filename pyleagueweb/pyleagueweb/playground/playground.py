@@ -1,33 +1,20 @@
-import os
-from logging.config import fileConfig
-
-
-from flask import Flask
+from flask import Blueprint
 from flask import render_template
 from flask import request
 
-import cache
-from fb import fb_api
+import pyleagueweb.cache as cache
 
-app = Flask(__name__)
-
-app.register_blueprint(fb_api)
+playground = Blueprint('playground', __name__)
 
 
-@app.route('/')
+@playground.route('/')
 def search_player():
     return render_template('index.html', regions=['NA', 'EUW', 'EUNE'],
                            name=request.args.get('name', 'N/A'))
 
 
-@app.route('/playground/', methods=['POST'])
+@playground.route('/playground/', methods=['POST'])
 def view_cached_player_id():
     return str(
         cache.id_cache.get(cache.generate_cache_key(request.form['region'],
                                                     request.form['player'])))
-
-
-if __name__ == '__main__':
-    script_dir = os.path.dirname(__file__)
-    fileConfig(os.path.join(script_dir, 'logging.conf'))
-    app.run(debug=True)

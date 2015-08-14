@@ -1,0 +1,3 @@
+include pyleagueweb/static/*
+include pyleagueweb/templates/*
+include pyleagueweb/*.conf

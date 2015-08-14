@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>{{ name }}</title>
+</head>
+<body>
+    {{ player.name }} contributions: {{ player.contributions }} / {{ player.matches }}
+    <p class="emphatic">hi {{ player.name }}</p>
+    <a href="{{ url_for('playground.search_player', name=player.name) }}">back foul fiend</a>
+</body>
+</html>

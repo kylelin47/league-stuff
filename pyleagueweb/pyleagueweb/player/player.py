@@ -4,25 +4,34 @@ from flask import Blueprint
 from flask import render_template
 
 import pyleague.match as match
-import cache
+import pyleagueweb.cache as cache
 
-fb_api = Blueprint('fb_api', __name__)
+player_api = Blueprint('player_api', __name__)
 
 api_key = os.environ['RIOT_API_KEY']
 
 
-@fb_api.route('/<region>/<name>/')
-def show_fb(region, name):
+class Player:
+    def __init__(self, name, matches, contributions):
+        self.name = name
+        self.matches = matches
+        self.contributions = contributions
+
+
+@player_api.route('/<region>/<name>/')
+def show_player(region, name):
     history = get_match_history(region, name)
-    expected_template = 'first_blood.html'
+    expected_template = 'player.html'
     template_name = get_template_name(history, expected_template)
     if template_name is not expected_template:
         return render_template(template_name)
+
+    p = Player(name=name,
+               matches=match.get_number_of_matches(history),
+               contributions=match.get_first_blood_contributions(history)
+               )
     return render_template(expected_template,
-                           contributions=match.get_first_blood_contributions(
-                               history),
-                           matches=match.get_number_of_matches(history),
-                           name=name)
+                           player=p)
 
 
 def get_match_history(region, name):
