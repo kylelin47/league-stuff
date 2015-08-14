@@ -1,3 +1,4 @@
 include pyleagueweb/static/*
 include pyleagueweb/templates/*
+include pyleagueweb/templates/errors/*
 include pyleagueweb/*.conf

@@ -53,7 +53,7 @@ def get_match_history(region, name):
 
 def get_template_name(history, default):
     if history is None:
-        return 'servers_unavailable.html'
+        return 'errors/servers_unavailable.html'
     if 'matches' not in history:
-        return 'no_match_history.html'
+        return 'errors/no_match_history.html'
     return default
