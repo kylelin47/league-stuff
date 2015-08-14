@@ -5,22 +5,24 @@
     <title>hello friends</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
     <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='playground.js') }}"></script>
 </head>
 <body>
-    <form onSubmit="return redirect();">
-        <input id="name" type="text" maxlength="55" class="box" placeholder="player name" autofocus />
+    <form onSubmit="return pyleagueweb.redirect();">
+        <input id="name" type="text" maxlength="55" class="box" placeholder="player name" autofocus required>
         <select id="region">
             {% for region in regions %}
                 <option value="{{ region }}">{{ region }}</option>
             {% endfor %}
         </select>
-        <input type="submit" class="submit" value="SUBMIT" />
+        <input type="submit" class="submit" value="SUBMIT">
     </form>
     <form action="/playground/" method="post">
         <input name="region" value="na" placeholder="region">
         <input name="player" value="efdf" placeholder="player">
         <button>See cached id</button>
     </form>
+    <button onclick="pyleagueweb.changeColors('emphatic')">Click me!</button>
     <p class="emphatic">Name parameter: {{ name }}</p>
 </body>
 </html>
