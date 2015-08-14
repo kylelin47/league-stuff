@@ -1,6 +1,6 @@
 import logging
 
-from .accessor import ApiAccessor
+from pyleague.accessor import ApiAccessor
 
 logger = logging.getLogger(__name__)
 

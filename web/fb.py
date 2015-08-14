@@ -3,7 +3,7 @@ import os
 from flask import Blueprint
 from flask import render_template
 
-import pyriot.match as match
+import pyleague.match as match
 import cache
 
 fb_api = Blueprint('fb_api', __name__)

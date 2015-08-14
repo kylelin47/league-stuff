@@ -2,8 +2,8 @@ import json
 import os
 import unittest
 
-from pyriot.match import MatchHistoryAccessor
-import pyriot.match as match
+from pyleague.match import MatchHistoryAccessor
+import pyleague.match as match
 
 api_key = os.environ['RIOT_API_KEY']
 

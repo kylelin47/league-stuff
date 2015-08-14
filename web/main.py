@@ -1,4 +1,6 @@
+import os
 from logging.config import fileConfig
+
 
 from flask import Flask
 from flask import render_template
@@ -26,5 +28,6 @@ def view_cached_player_id():
 
 
 if __name__ == '__main__':
-    fileConfig('logging.conf')
+    script_dir = os.path.dirname(__file__)
+    fileConfig(os.path.join(script_dir, 'logging.conf'))
     app.run(debug=True)

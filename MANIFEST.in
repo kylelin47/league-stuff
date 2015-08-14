@@ -1,1 +1,1 @@
-include pyriot/tests/resources/*
+include pyleague/tests/resources/*
