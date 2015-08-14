@@ -1,9 +1,9 @@
 # league-stuff
 
-python interface to league of legends API
+pyleague is python interface to league of legends API
 
 put your league API key in environment variable 'RIOT_API_KEY'
 
 install with setup.py
 
-also a small web interface into it, requires Flask
+web is a web interface into it, requires Flask
