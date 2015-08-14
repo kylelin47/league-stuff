@@ -1,6 +1,7 @@
 import logging
 
 from pyleague.accessor import ApiAccessor
+from pyleague.versions import versions
 
 logger = logging.getLogger(__name__)
 
@@ -12,8 +13,10 @@ class MatchHistoryAccessor(ApiAccessor):
         if player_id is None:
             player_id = self.get_id(player_name)
         logger.info('Accessing player match history')
+        data_type = 'matchhistory'
         return self.get_json(
-            self._address + '/v2.2/matchhistory/{}'.format(player_id))
+            self._address + '/{}/{}/{}'.format(versions[data_type], data_type,
+                                               player_id))
 
 
 def get_first_blood_contributions(match_history):

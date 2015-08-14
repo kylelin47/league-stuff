@@ -2,6 +2,8 @@ import logging
 
 import requests
 
+from pyleague.versions import versions
+
 logger = logging.getLogger(__name__)
 
 
@@ -32,8 +34,11 @@ class ApiAccessor:
     def get_id(self, player_name):
         logger.info('Getting id of player {}'.format(player_name))
         player_name = ''.join(player_name.split())
-        request_url = self._address + '/v1.4/summoner/by-name/{}'.format(
-            player_name)
+        data_type = 'summoner'
+        request_url = (self._address +
+                       '/{}/{}/by-name/{}'.format(versions[data_type],
+                                                  data_type,
+                                                  player_name))
         return self.get_json(request_url)[player_name.lower()]['id']
 
     def get_json(self, url):
