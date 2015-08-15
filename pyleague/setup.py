@@ -8,6 +8,4 @@ setup(
     ],
     packages=find_packages(exclude=['tests', '*.tests', '*.tests.*']),
     include_package_data = True,
-    scripts=[
-    ],
 )
