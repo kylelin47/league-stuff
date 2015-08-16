@@ -43,16 +43,24 @@ def show_player(region, name):
 def get_match_history(region, name):
     cache_key = cache.generate_cache_key(region, name)
     history = cache.history_cache.get(cache_key)
+    if history == cache.null_value:
+        return None
     if history is None:
         mha = match.MatchHistoryAccessor(api_key, region)
         player_id = cache.id_cache.get(cache_key)
+        if player_id == cache.null_value:
+            return None
         try:
             if player_id is None:
                 player_id = mha.get_id(name)
             history = mha.get_match_history(player_id=player_id)
         except pyleague.exceptions.PyLeagueError as e:
             logger.warning(e)
+            if '404' in str(e):
+                player_id = cache.null_value
+                history = cache.null_value
             return None
-        cache.id_cache.set(cache_key, player_id)
-        cache.history_cache.set(cache_key, history)
+        finally:
+            cache.id_cache.set(cache_key, player_id)
+            cache.history_cache.set(cache_key, history)
     return history
