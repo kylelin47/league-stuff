@@ -8,6 +8,8 @@ from pyleagueweb.player.player import player_api
 from pyleagueweb.playground.playground import playground
 
 app = Flask(__name__)
+# if two routes are identical it goes to the first one it finds top to bottom
+# if two routes match it goes to the more specific one
 
 app.register_blueprint(player_api, url_prefix='/players')
 app.register_blueprint(playground)

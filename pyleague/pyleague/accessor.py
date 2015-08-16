@@ -1,7 +1,9 @@
 import logging
 
 import requests
+import requests.exceptions
 
+from pyleague.exceptions import PyLeagueError
 from pyleague.versions import versions
 
 logger = logging.getLogger(__name__)
@@ -41,8 +43,14 @@ class ApiAccessor:
                                                   player_name))
         return self.get_json(request_url)[player_name.lower()]['id']
 
-    def get_json(self, url):
+    def get_json(self, url, payload=None):
+        if payload is not None:
+            payload.update(self._payload)
+        else:
+            payload = self._payload
+        response = requests.get(url, params=payload)
         try:
-            return requests.get(url, params=self._payload).json()
-        except ValueError:
-            return None
+            response.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            raise (PyLeagueError(str(e)))
+        return response.json()

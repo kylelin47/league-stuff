@@ -14,9 +14,10 @@ class MatchHistoryAccessor(ApiAccessor):
             player_id = self.get_id(player_name)
         logger.info('Accessing player match history')
         data_type = 'matchhistory'
+        payload = {'rankedQueues': 'RANKED_SOLO_5x5,RANKED_TEAM_5x5'}
         return self.get_json(
             self._address + '/{}/{}/{}'.format(versions[data_type], data_type,
-                                               player_id))
+                                               player_id), payload=payload)
 
 
 def get_first_blood_contributions(match_history):
