@@ -52,5 +52,5 @@ class ApiAccessor:
         try:
             response.raise_for_status()
         except requests.exceptions.HTTPError as e:
-            raise (PyLeagueError(str(e)))
+            raise PyLeagueError(e)
         return response.json()
